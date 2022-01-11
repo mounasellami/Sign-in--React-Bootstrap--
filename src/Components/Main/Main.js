@@ -2,6 +2,9 @@ import React from 'react';
 import './Main.css';
 import BackgroundVideo from "../res/video/bgv.mp4";
 import { Container, Form, Button } from 'react-bootstrap';
+import iconfacbook from "../res/img/icon-facebook-48.png";
+import icongoogle from "../res/img/icon-google-48.png";
+
 
 const Main=() => {
   return (
@@ -53,12 +56,12 @@ const Main=() => {
           <div className="icon-party d-flex " style={{fontWeight: "600", fontSize: "13px" }} >
             <div className='space'>
              <a variant="light" size="lg" className= "mb-4 mt-3" > 
-               <img className="facebook-icon" src="./res/img/icon-facebook-48.png"/>
+               <img className="facebook-icon" src={iconfacbook}/>
              </a>
            </div>
            <div>
              <a variant="light" size="lg" className= "mb-3"> 
-              <img className="google-icon" src="./res/img/icon-google-48.png"/>
+              <img className="google-icon" src={icongoogle}/>
              </a>
            </div>
           </div>
