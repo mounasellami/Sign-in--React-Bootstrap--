@@ -1,0 +1,28 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-flow: row nowrap; */
+  justify-content: flex-start;
+     font-size: calc(10px + 2vmin); 
+}
+.search{
+  display: flex;
+  position: relative;
+}
+#NavDropdown.Item {
+  display: flex;
+  justify-content: space-around;
+}
+/* .coloring{ background-color: #33e0ff; } */
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
